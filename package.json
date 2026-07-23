@@ -1,0 +1,9 @@
+{
+  "name": "@emsenn/corpus-formation-lead-courier",
+  "private": true,
+  "type": "module",
+  "description": "Projects a witnessed corpus recognition candidate into one treaty-admissible founder formation lead; it has no formation authority.",
+  "bin": {"deliver-corpus-formation-lead": "./src/deliver.mjs", "serve-corpus-formation-lead-courier-a2a": "./bin/serve-a2a.mjs"},
+  "scripts": {"check": "node --check src/service.mjs && node --check src/deliver.mjs && node --check src/a2a-executor.mjs && node --check bin/execute-a2a-message.mjs && node --check bin/serve-a2a.mjs && node --check test/service.test.mjs", "test": "node --test test/service.test.mjs"},
+  "dependencies": {"@emsenn/a2a-contracted-agent-service": "file:../../../../../../../561-group/services/red-cup-engineering/services/web-services-section/services/a2a-services-section/services/a2a-contracted-agent-service", "@emsenn/a2a-rmn-part-service": "file:../../../../../../../561-group/services/red-cup-engineering/services/web-services-section/services/a2a-services-section/services/a2a-rmn-part-service", "@emsenn/activitypub-services-section": "file:../../../../../../../561-group/services/red-cup-engineering/services/web-services-section/services/activitypub-services-section", "@emsenn/rmn-semantic-conformance": "file:../../../../../../../561-group/services/lenticule-science/services/obsmetrological-services-section/services/rmn-semantic-conformance", "@emsenn/rwil-rdf-services": "file:../../../../../../../561-group/services/lenticule-science/services/obsmetrological-services-section/services/rwil-rdf-services", "@a2a-js/sdk": "1.0.0-beta.0"}
+}

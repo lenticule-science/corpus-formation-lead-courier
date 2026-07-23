@@ -1,0 +1,23 @@
+[Unit]
+Description=Corpus formation-lead courier A2A face
+After=network-online.target
+
+[Service]
+WorkingDirectory=/home/emsenn/info/lib/emsenn/services/board-of-directors/services/executive-office/services/knowledge-services-section/services/corpus-formation-lead-courier
+Environment=HOST=127.0.0.1
+Environment=PORT=8821
+Environment=BASE_URL=https://bare-cedar-fog.561.group/a2a/corpus-formation-lead-courier
+Environment=AGENT_CARD_SIGNING_KEY=/home/emsenn/info/lib/emsenn/services/board-of-directors/services/executive-office/services/knowledge-services-section/services/corpus-formation-lead-courier/data/a2a/signing.pem
+Environment=AGENT_CARD_JWKS=/home/emsenn/info/lib/emsenn/services/board-of-directors/services/executive-office/services/knowledge-services-section/services/corpus-formation-lead-courier/content/agent-cards/jwks.json
+Environment=AGENT_CARD_SIGNING_KID=corpus-formation-lead-courier-v1
+Environment=ACTIVITYPUB_ORIGIN=https://bare-cedar-fog.561.group
+Environment=ACTIVITYPUB_IDENTIFIER=corpus-formation-lead-courier
+Environment=ACTIVITYPUB_AGENT_CARD=https://bare-cedar-fog.561.group/a2a/corpus-formation-lead-courier/.well-known/agent-card.json
+Environment=ACTIVITYPUB_RECIPIENT=https://bare-cedar-fog.561.group/actors/founder-enterprise-formation-demand
+Environment=ACTIVITYPUB_RECIPIENT_INBOX=https://bare-cedar-fog.561.group/actors/founder-enterprise-formation-demand/inbox
+Environment=ACTIVITYPUB_KEYS_PATH=/home/emsenn/info/lib/emsenn/services/board-of-directors/services/executive-office/services/knowledge-services-section/services/corpus-formation-lead-courier/data/activitypub/keys.json
+ExecStart=/home/emsenn/.config/nvm/versions/node/v24.13.1/bin/node bin/serve-a2a.mjs
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
