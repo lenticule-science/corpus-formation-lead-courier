@@ -1,5 +1,5 @@
-import { semanticId } from "@emsenn/rmn-semantic-conformance";
-import { relationalRwilDocument } from "@emsenn/rwil-rdf-services/client";
+import { semanticId } from "@red-cup-engineering/rmn-semantic-conformance";
+import { relationalRwilDocument } from "@lenticule-science/rwil-rdf-projection-service/client";
 
 export const ACTOR = "urn:ame:corpus-formation-lead-courier";
 export const FOUNDER = "urn:ame:561-group:founder-enterprise-formation-demand-service";
