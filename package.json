@@ -12,11 +12,11 @@
     "test": "node --test test/service.test.mjs"
   },
   "dependencies": {
-    "@red-cup-engineering/a2a-contracted-agent-service": "2.0.0",
+    "@red-cup-engineering/a2a-contracted-agent-service": "2.0.4",
     "@red-cup-engineering/a2a-rmn-part-service": "1.0.0",
     "@red-cup-engineering/activitypub-services-section": "1.0.0",
     "@red-cup-engineering/rmn-semantic-conformance": "6.0.0",
-    "@lenticule-science/rwil-rdf-projection-service": "1.0.0",
+    "@lenticule-science/rwil-rdf-projection-service": "1.0.2",
     "@a2a-js/sdk": "1.0.0-beta.0"
   },
   "version": "0.1.0",
