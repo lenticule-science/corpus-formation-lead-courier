@@ -3,7 +3,7 @@ import { readFileSync } from "node:fs";
 import { deliverFromEnvironment } from "@red-cup-engineering/activitypub-services-section/deliver";
 import { projectRmnActivity } from "@red-cup-engineering/activitypub-services-section/rmn-activity";
 import { semanticBytes } from "@red-cup-engineering/rmn-semantic-conformance";
-import { relationalRwilDocument } from "@lenticule-science/rwil-rdf-projection-service/client";
+import { relationalRwilDocument } from "@lenticule-science/witness-journal-rdf-projection-service/client";
 import { projectFounderFormationLead } from "./service.mjs";
 
 function required(name) { const value = process.env[name]; if (!value) throw new Error(`${name} is required`); return value; }
