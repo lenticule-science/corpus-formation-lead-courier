@@ -1,11 +1,11 @@
 import { semanticId } from "@red-cup-engineering/rmn-semantic-conformance";
-import { relationalRwilDocument } from "@lenticule-science/witness-journal-rdf-projection-service/client";
+import { relationalWitnessJournalDocument } from "@lenticule-science/witness-journal-rdf-projection-service/client";
 
 export const ACTOR = "urn:ame:corpus-formation-lead-courier";
 export const FOUNDER = "urn:ame:561-group:founder-enterprise-formation-demand-service";
 const CONTEXT = "https://www.w3.org/ns/activitystreams";
 const NI = /^ni:\/\/\/sha-256;[A-Za-z0-9_-]{43}$/u;
-const record = (body) => Object.freeze({ id: semanticId(relationalRwilDocument(body)), ...body });
+const record = (body) => Object.freeze({ id: semanticId(relationalWitnessJournalDocument(body)), ...body });
 
 // A courier is a membrane, not a founder: it can only preserve a bounded
 // candidate's evidence and address it to the standing founder receiver.
