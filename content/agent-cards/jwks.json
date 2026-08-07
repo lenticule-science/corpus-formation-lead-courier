@@ -1,0 +1,12 @@
+{
+  "keys": [
+    {
+      "crv": "Ed25519",
+      "x": "OLRWf6RFoU3IK0hmlEzEE3GFdUKToeD9lPLATRbv9W0",
+      "kty": "OKP",
+      "kid": "corpus-formation-lead-courier-v1",
+      "alg": "EdDSA",
+      "use": "sig"
+    }
+  ]
+}

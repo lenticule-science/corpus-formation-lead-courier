@@ -1,0 +1,22 @@
+{
+  "name": "@harmonious-union/corpus-formation-lead-courier",
+  "private": true,
+  "type": "module",
+  "description": "Projects a witnessed corpus recognition candidate into one treaty-admissible founder formation lead; it has no formation authority.",
+  "bin": {
+    "deliver-corpus-formation-lead": "./src/deliver.mjs",
+    "serve-corpus-formation-lead-courier-a2a": "./scripts/serve-a2a.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/service.mjs && node --check src/deliver.mjs && node --check src/a2a-executor.mjs && node --check scripts/execute-a2a-message.mjs && node --check scripts/serve-a2a.mjs && node --check test/service.test.mjs",
+    "test": "node --test test/service.test.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/a2a-contracted-agent-service": "2.0.5",
+    "@red-cup-engineering/a2a-rmn-part-service": "1.0.1",
+    "@red-cup-engineering/activitypub-services-section": "1.0.2",
+    "@red-cup-engineering/semantic-content-identify-service": "0.1.10",
+    "@a2a-js/sdk": "1.0.0-beta.0"
+  },
+  "version": "0.1.1"
+}
