@@ -18,5 +18,9 @@
     "@red-cup-engineering/semantic-content-identify-service": "0.1.10",
     "@a2a-js/sdk": "1.0.0-beta.0"
   },
-  "version": "0.1.1"
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenticule-science/corpus-formation-lead-courier.git"
+  }
 }
