@@ -2,9 +2,9 @@
   "keys": [
     {
       "crv": "Ed25519",
-      "x": "OLRWf6RFoU3IK0hmlEzEE3GFdUKToeD9lPLATRbv9W0",
+      "x": "f8Ro_gydtMQXvNbJzraKiw7H5GDGN801ixou9_VwnQE",
       "kty": "OKP",
-      "kid": "corpus-formation-lead-courier-v1",
+      "kid": "corpus-formation-lead-courier-v1-2026-10-21",
       "alg": "EdDSA",
       "use": "sig"
     }
